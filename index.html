@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elite Flooring Solutions | Home</title>
+    <meta name="description" content="Premium flooring installation and repair services. Hardwood, laminate, and tile flooring for your home and business.">
+    <link rel="stylesheet" href="/src/index.css">
+  </head>
+  <body class="bg-stone-50 text-stone-900 font-sans">
+    <!-- Sticky Navbar -->
+    <nav class="fixed top-0 w-full bg-white/90 backdrop-blur-md shadow-sm z-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-20 items-center">
+          <div class="flex-shrink-0 flex items-center">
+            <a href="/" class="text-2xl font-bold tracking-tighter text-stone-800">ELITE<span class="text-amber-700">FLOORING</span></a>
+          </div>
+          <div class="hidden md:flex space-x-8">
+            <a href="/" class="text-amber-700 font-medium">Home</a>
+            <a href="/about.html" class="hover:text-amber-700 transition-colors">About</a>
+            <a href="/services.html" class="hover:text-amber-700 transition-colors">Services</a>
+            <a href="/gallery.html" class="hover:text-amber-700 transition-colors">Gallery</a>
+            <a href="/contact.html" class="hover:text-amber-700 transition-colors">Contact</a>
+          </div>
+          <div class="md:hidden">
+            <button id="mobile-menu-button" class="p-2 text-stone-600">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-stone-100 px-4 py-4 space-y-2">
+        <a href="/" class="block py-2 text-amber-700">Home</a>
+        <a href="/about.html" class="block py-2 hover:text-amber-700">About</a>
+        <a href="/services.html" class="block py-2 hover:text-amber-700">Services</a>
+        <a href="/gallery.html" class="block py-2 hover:text-amber-700">Gallery</a>
+        <a href="/contact.html" class="block py-2 hover:text-amber-700">Contact</a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative h-screen flex items-center pt-20 overflow-hidden">
+      <div class="absolute inset-0 z-0">
+        <img src="https://images.unsplash.com/photo-1581850518616-bcb8186c443e?auto=format&fit=crop&q=80&w=2000" alt="Beautiful hardwood floor" class="w-full h-full object-cover" referrerPolicy="no-referrer">
+        <div class="absolute inset-0 bg-black/40"></div>
+      </div>
+      <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
+        <h1 class="text-5xl md:text-7xl font-bold tracking-tight mb-6">Elevate Your Space with <br><span class="text-amber-400">Premium Flooring</span></h1>
+        <p class="text-xl md:text-2xl max-w-2xl mb-10 text-stone-100">Expert installation and high-quality materials for a lifetime of beauty and durability.</p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="/contact.html" class="bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 rounded-md text-lg font-semibold transition-all text-center">Get a Free Quote</a>
+          <a href="/services.html" class="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/30 px-8 py-4 rounded-md text-lg font-semibold transition-all text-center">Our Services</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Intro Section -->
+    <section class="py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+          <div>
+            <h2 class="text-3xl md:text-4xl font-bold text-stone-800 mb-6">Crafting Quality Floors Since 1998</h2>
+            <p class="text-lg text-stone-600 mb-6 leading-relaxed">At Elite Flooring Solutions, we believe that the foundation of a beautiful home starts from the ground up. With over two decades of experience, we've mastered the art of flooring installation, bringing elegance and value to thousands of homes.</p>
+            <p class="text-lg text-stone-600 mb-8 leading-relaxed">Our team of certified professionals is dedicated to providing meticulous craftsmanship and personalized service, ensuring your vision becomes a stunning reality.</p>
+            <a href="/about.html" class="text-amber-700 font-bold flex items-center hover:gap-2 transition-all">Learn More About Us <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg></a>
+          </div>
+          <div class="grid grid-cols-2 gap-4">
+            <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=800" alt="Flooring work" class="rounded-lg shadow-lg" referrerPolicy="no-referrer">
+            <img src="https://images.unsplash.com/photo-1505691938895-1758d7eaa511?auto=format&fit=crop&q=80&w=800" alt="Finished floor" class="rounded-lg shadow-lg mt-8" referrerPolicy="no-referrer">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Flooring -->
+    <section class="py-24 bg-stone-100">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold text-stone-800 mb-4">Our Featured Flooring Types</h2>
+          <p class="text-stone-600 max-w-2xl mx-auto">Choose from our curated selection of premium materials designed to suit any style and budget.</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Hardwood -->
+          <div class="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+            <div class="h-64 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?auto=format&fit=crop&q=80&w=800" alt="Hardwood Flooring" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" referrerPolicy="no-referrer">
+            </div>
+            <div class="p-8">
+              <h3 class="text-xl font-bold mb-3">Classic Hardwood</h3>
+              <p class="text-stone-600 mb-6">Timeless beauty and unmatched durability. Adds significant value and warmth to any room.</p>
+              <a href="/services.html" class="text-amber-700 font-semibold hover:underline">View Details</a>
+            </div>
+          </div>
+          <!-- Laminate -->
+          <div class="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+            <div class="h-64 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1581850518616-bcb8186c443e?auto=format&fit=crop&q=80&w=800" alt="Laminate Flooring" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" referrerPolicy="no-referrer">
+            </div>
+            <div class="p-8">
+              <h3 class="text-xl font-bold mb-3">Modern Laminate</h3>
+              <p class="text-stone-600 mb-6">Versatile, scratch-resistant, and budget-friendly. Perfect for high-traffic areas and active families.</p>
+              <a href="/services.html" class="text-amber-700 font-semibold hover:underline">View Details</a>
+            </div>
+          </div>
+          <!-- Tiles -->
+          <div class="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+            <div class="h-64 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1523413555809-0fb8a4a2c71c?auto=format&fit=crop&q=80&w=800" alt="Tile Flooring" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" referrerPolicy="no-referrer">
+            </div>
+            <div class="p-8">
+              <h3 class="text-xl font-bold mb-3">Luxury Tiles</h3>
+              <p class="text-stone-600 mb-6">Waterproof and elegant. Ideal for kitchens, bathrooms, and entryways with endless design options.</p>
+              <a href="/services.html" class="text-amber-700 font-semibold hover:underline">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-24 bg-stone-800 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4">What Our Clients Say</h2>
+          <div class="w-24 h-1 bg-amber-500 mx-auto"></div>
+        </div>
+        <div class="grid md:grid-cols-2 gap-12">
+          <div class="bg-stone-700/50 p-8 rounded-lg border border-stone-600">
+            <p class="text-lg italic mb-6">"Elite Flooring transformed our living room. The attention to detail in the hardwood installation was incredible. Highly recommend!"</p>
+            <div class="flex items-center">
+              <div class="w-12 h-12 bg-amber-600 rounded-full flex items-center justify-center font-bold text-xl mr-4">S</div>
+              <div>
+                <p class="font-bold">Sarah Johnson</p>
+                <p class="text-stone-400 text-sm">Homeowner in Seattle</p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-stone-700/50 p-8 rounded-lg border border-stone-600">
+            <p class="text-lg italic mb-6">"Professional, on time, and clean. The new laminate floors in our office look amazing and were installed much faster than expected."</p>
+            <div class="flex items-center">
+              <div class="w-12 h-12 bg-amber-600 rounded-full flex items-center justify-center font-bold text-xl mr-4">M</div>
+              <div>
+                <p class="font-bold">Michael Chen</p>
+                <p class="text-stone-400 text-sm">Business Owner</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-amber-700">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-8">Ready to Start Your Flooring Project?</h2>
+        <a href="/contact.html" class="inline-block bg-white text-amber-700 px-10 py-4 rounded-md text-lg font-bold hover:bg-stone-100 transition-colors">Get Your Free Estimate Today</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-stone-900 text-stone-400 py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-12 mb-12">
+          <div class="col-span-1 md:col-span-1">
+            <a href="/" class="text-2xl font-bold tracking-tighter text-white mb-6 block">ELITE<span class="text-amber-600">FLOORING</span></a>
+            <p class="mb-6">Providing premium flooring solutions for residential and commercial spaces since 1998.</p>
+            <div class="flex space-x-4">
+              <a href="#" class="hover:text-white transition-colors"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+              <a href="#" class="hover:text-white transition-colors"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+            </div>
+          </div>
+          <div>
+            <h4 class="text-white font-bold mb-6">Quick Links</h4>
+            <ul class="space-y-4">
+              <li><a href="/" class="hover:text-white transition-colors">Home</a></li>
+              <li><a href="/about.html" class="hover:text-white transition-colors">About Us</a></li>
+              <li><a href="/services.html" class="hover:text-white transition-colors">Services</a></li>
+              <li><a href="/gallery.html" class="hover:text-white transition-colors">Project Gallery</a></li>
+              <li><a href="/contact.html" class="hover:text-white transition-colors">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-white font-bold mb-6">Services</h4>
+            <ul class="space-y-4">
+              <li><a href="/services.html" class="hover:text-white transition-colors">Hardwood Installation</a></li>
+              <li><a href="/services.html" class="hover:text-white transition-colors">Laminate Flooring</a></li>
+              <li><a href="/services.html" class="hover:text-white transition-colors">Tile & Stone</a></li>
+              <li><a href="/services.html" class="hover:text-white transition-colors">Floor Repair</a></li>
+              <li><a href="/services.html" class="hover:text-white transition-colors">Consultation</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-white font-bold mb-6">Contact Info</h4>
+            <ul class="space-y-4">
+              <li class="flex items-start">
+                <svg class="w-6 h-6 mr-3 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                <span>123 Flooring Way, <br>Design District, WA 98101</span>
+              </li>
+              <li class="flex items-center">
+                <svg class="w-6 h-6 mr-3 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                <span>(555) 123-4567</span>
+              </li>
+              <li class="flex items-center">
+                <svg class="w-6 h-6 mr-3 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                <span>info@eliteflooring.com</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="border-t border-stone-800 pt-8 text-center text-sm">
+          <p>&copy; 2026 Elite Flooring Solutions. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
+
